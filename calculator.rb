@@ -23,3 +23,11 @@ class Calculator
     return number ** exponent
   end
 end
+
+puts "Test the add method"
+calculator = Calculator.new
+if calculator.add(1, 1) == 2
+  puts "Test passed!"
+else
+  puts "Test failed!"
+end
